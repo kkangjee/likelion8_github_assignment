@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>테스트</title>
+	<meta charset="utf-8">
+	<meta name="author" content="jungmin">
+	<meta name="description" content="MyHTML">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<style>
+		h3 {
+			color: purple;
+		}
+	</style>
+</head>
+<body>
+<div class="MyProfile" align="center">
+	<h1 align="left">김정민의 자기소개</h1>
+	<div class="ProfilePicture">
+		<h3>프로필 사진</h3>
+		<img src="https://postfiles.pstatic.net/20150924_78/catndahye_14430212075205lJy8_JPEG/NaverBlog_20150924_001327_07.jpg?type=w1" width="300" height="200">
+	</div>
+	<br><br>
+	<div clss="MyInfo">
+		<h3>내 정보</h3>
+		<span><b>컴퓨터과학과</b></span>
+		<span><b>201810920</b></span>
+		<span><b>김정민</b></span>
+	</div>
+	<br><br>
+	<div class="introduce">
+		<h3>간략한 자기소개</h3>
+		<i>안녕하세요. 저는 멋쟁이 사자차럼에 소속되어 있으며 현재 HTML 강의를 듣고 있습니다.</i>
+	</div>
+	<br><br>
+	<div class="keyword">
+		<h3>자신을 표현하는 키워드 5가지</h3>
+		<ul class="five"><!--Unordered List-->
+			<li>여자</li>
+			<li>22살</li>
+			<li>대학생</li>
+			<li>게임</li>
+			<li>컴퓨터</li>
+		</ul>
+	</div>
+	<br><br>
+	<div class="value">
+		<h3>자신의 가치 순위</h3>
+		<ol class="five">
+			<li>건강</li>
+			<li>효도</li>
+			<li>돈</li>
+			<li>사랑</li>
+			<li>명예</li>
+		</ol>
+	</div>
+	<br><br>
+	<div class="favorite">
+		<h3>내가 좋아하는 것</h3>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>음식</th>
+					<th>음악</th>
+					<th>운동</th>
+					<th>게임</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>연어</td>
+					<td>아이유</td>
+					<td>합기도</td>
+					<td>오버워치</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br><br>
+	<div class="MyLink">
+		<a href="https://github.com/j-miiin">
+			<img class="link"
+			src="github.png" width="50" height="50">
+		</a>
+		<a href="https://www.notion.so/Notion_j-min-0489399420e8418da30ca02073b7a0c9">
+			<img class="link"
+			src="youtube.png" width="50" height="50">
+		</a>
+	</div>
+</div>
+
+<div class="inputService" align="center">
+	<h1 align="left">
+		사용자 입력 페이지
+	</h1>
+	<div class="MyInput">
+		<div class="textInput">
+			핸드폰 번호를 입력하세요<br><input type="text">
+		</div>
+		<br><br>
+		<div class="textAreaInput">
+			지원동기를 입력하세요<br><textarea></textarea>
+		</div>
+		<br><br>
+		<div class="checkbox">
+			사용 가능한 프로그래밍 언어를 선택하세요<br>
+			<input type="checkbox">C<br>
+			<input type="checkbox">C++<br>
+			<input type="checkbox">Java<br>
+			<input type="checkbox">Python<br>
+		</div>
+		<br><br>
+		<div class="select">
+			생년월일을 입력하세요<br>
+			<select>
+				<option>1월</option>
+				<option>2월</option>
+				<option>3월</option>
+				<option>5월</option>
+				<option>6월</option>
+				<option>7월</option>
+				<option>8월</option>
+				<option>9월</option>
+				<option>10월</option>
+				<option>11월</option>
+				<option>12월</option>
+			</select>
+		</div>
+		<br><br>
+		<BUTTON>제출</BUTTON>
+		</div>
+	<br><br>
+	<form class="loginForm">
+		<h4>로그인</h4>
+		<input type="email" placeholder="email"><br>
+		<input type="password" placeholder="password"><br>
+		<BUTTON>로그인</BUTTON>
+		<BUTTON>회원가입</BUTTON>
+	</form>
+	<br><br>
+</div>
+
+<div class="Avengers" align="center">
+	<h3>타노스 건틀렛 핑거스냅</h3>
+	<img id=thanos src="gauntlet.png" width="300" height="300">
+	<br>
+	<img id=ironman src="ironman.png" width="200" height="200">
+	<img id=hulk src="hulk.png" width="200" height="200">
+	<img id=groot src="https://www.pngitem.com/pimgs/m/122-1223978_transparent-10-groot-png-images-collection-baby-groot.png" width="200" height="200">
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.5.0.js"
+  integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+  crossorigin="anonymous">
+</script>
+<script src="./index.js"></script>
+
+</body>
+</html>
