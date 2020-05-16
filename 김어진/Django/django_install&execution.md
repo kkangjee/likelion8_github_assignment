@@ -32,7 +32,7 @@ deactivate
 
  
 
-## *설치 및 삭제
+## * 설치 및 삭제
 장고 설치(가상환경 켜놓고 실행)
 
 pip install django
@@ -44,7 +44,7 @@ pip install django
 pip unintall django
 <br/><br/>
 
-## *서버 켜고 끄기
+## * 서버 켜고 끄기
 서버 켜기
 -python manage.py runserver   
 
