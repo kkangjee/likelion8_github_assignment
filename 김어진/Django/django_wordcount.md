@@ -1,4 +1,4 @@
-##### <WORDCOUNT>
+##### WORDCOUNT
 <br/><br/><br/>
 
 ## Home.html
