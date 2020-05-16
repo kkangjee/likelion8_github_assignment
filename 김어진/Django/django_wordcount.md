@@ -1,5 +1,5 @@
-### <WORDCOUNT>
-	<br/><br/><br/>
+##### <WORDCOUNT>
+<br/><br/><br/>
 
 ## Home.html
 1. about 페이지와 링크로 연결
