@@ -1,0 +1,33 @@
+.MyProfile {
+	background-color: gold;
+}
+
+.introduce {
+	background-color: white;
+	margin: 50px;
+}
+
+.five {
+	width: 50px;
+}
+
+.link {
+	padding: 50px;
+}
+
+.inputService {
+	background-image: url(SMU_LikeLion.png);
+}
+
+.MyInput {
+	width: 500px;
+	background-color: white;
+	opacity: .9;
+}
+
+.loginForm {
+	background-color: pink;
+	width: 300px;
+	padding: 10px;
+	opacity: .9;
+}
