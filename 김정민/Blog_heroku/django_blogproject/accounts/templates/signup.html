@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+<br><br>
+<div class = "container">
+
+    <h1>Sign Up!</h1>
+
+    <form method = "POST" action = "{% url 'signup' %}">
+        {% csrf_token %} 
+        <!--보안을 위해 사용하는 난수 발생기, csrf 공격을 방해하는 수단-->
+        Username :
+        <br>
+        <input name="username" type="text" value="">
+        <br>
+        Password :
+        <br>
+        <input name="password1" type="password" value="">
+        <br>
+        Confirm Password :
+        <br>
+        <input name="password2" type="password" value="">
+        <br>
+        <br>
+        <input class="btn btn-dark" type="submit" value="Sing Up">
+    
+    </form>
+</div>
+
+{% endblock %}
